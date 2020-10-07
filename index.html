@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kassandra Lim</title>
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Scroll Up Button -->
+
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  About Me
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#works">
+                 Works
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#skills">
+                 Skills
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#contact">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Hey there, I'm</h1>
+            <h2 class="title">Kassandra</h2>
+            <h1 class="subtitle profession">Web Developer</h1>
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">About Me</a>
+                  </li>
+                  <li>
+                    <a href="#works">Works</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">About Me</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger">
+                <strong
+                  >I'm Ma. Kassandra G. Lim and I love writing codes</strong
+                >
+              </p>
+              <br />
+              <p>
+                I found myself interested on web development on my college days until now. I'm making fun
+                writing codes because it challenge me on doing hard stuff and makes me to think outside the box.
+                Along the way, I learn techniques, tools, and tricks on writing codes and I able to use those learnings 
+                to be a better Web Developer.
+              </p>
+              <br />
+            </div>
+            <div class="column is-6 right-image" data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="img/avatar.png" height="600" width="375"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <!-- Begin works Content -->
+      <div class="section-color works" id="works">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div
+              class="column is-12 about-me"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1 class="work-title has-text-centered section-title">works</h1>
+              <br />
+            </div>
+            <div class="row columns is-12">
+              <div  
+                class="column is-4 has-text-centered aos-init aos-animate"
+                data-aos="fade-in" 
+                data-aos-easing="linear">
+                <div class="card large">
+                  <div class="card-image">
+                    <figure class="image is-16by9">
+                      <img src="img/quiz_app.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="title has-text-centered">Online Quiz Application</p>
+                    <div class="content">
+                      A simple online quiz application where users will answer questions based on selected quiz and after a quiz, a scoreboard will appear. Aside from quiz, a user can view their quiz history and also the ranking on each quiz. The Admin can create, view, edit and delete quiz as well as managing ranks, history and viewing registered users.
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-footer-item">
+                      <span>Source code is available on <a href="https://github.com/sandralim021/quiz_app" target="_blank"> Github</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div 
+                class="column is-4 has-text-centered aos-init aos-animate"
+                data-aos="fade-in" 
+                data-aos-easing="linear">
+                <div class="card large">
+                  <div class="card-image">
+                    <figure class="image is-16by9">
+                      <img src="img/laravue_blog.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="title has-text-centered">Laravue Blog</p>
+                    <div class="content">
+                      A Blog website where the admin and authors can create, edit and publish articles to make available on public (users). A user can view the articles made by admin and authors and user can sort the viewing of articles by searching or choosing the topic on the list.
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-footer-item">
+                      <span>Source code is available on <a href="https://github.com/sandralim021/laravue_blog" target="_blank"> Github</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="column is-4 has-text-centered aos-init aos-animate"
+                data-aos="fade-in" 
+                data-aos-easing="linear">
+                <div class="card large">
+                  <div class="card-image">
+                    <figure class="image is-16by9">
+                      <img src="img/stock_management.png" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <p class="title has-text-centered">Stock Management System</p>
+                    <div class="content">
+                      Stock Management System allows the user to track the products and orders. It also have categories and brands that user can manage and the user can generate reports.
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <p class="card-footer-item">
+                      <span>Source code is available on <a href="https://github.com/sandralim021/stock_management" target="_blank"> Github</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Works Content -->
+
+      <!-- Begin Skills Content -->
+      <div class="section-dark skills" id="skills">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Skills</h1>
+            </div>
+            <div class="column is-3">
+                <img src="img/html.png" width="200" height="200" alt="HTML">
+            </div>
+            <div class="column is-3">
+              <img src="img/css.png" width="200" height="200"  alt="CSS">
+              </a>
+            </div>
+            <div class="column is-3">
+              <img src="img/js.png" width="200" height="200"  alt="JS">
+            </div>
+            <div class="column is-3">
+              <img src="img/php.png" width="200" height="200"  alt="PHP">
+            </div>
+            <div class="column is-3">
+              <img src="img/bootstrap.png" width="200" height="200"  alt="Bootstrap">
+            </div>
+            <div class="column is-3">
+              <img src="img/bulma.png" style="margin-top: 40px;" width="200" height="200" alt="Bulma">
+            </div>
+            <div class="column is-3">
+              <img src="img/vue.png" width="200" height="200" alt="Vue.js">
+            </div>
+            <div class="column is-3">
+              <img src="img/laravel.png" width="200" height="200" alt="Laravel">
+            </div>
+            <div class="column is-3">
+              <img src="img/codeigniter.png" width="200" height="200" alt="Codeigniter">
+            </div>
+            <div class="column is-3">
+              <img src="img/vs_code.png" width="200" height="200" alt="VS Code">
+            </div>
+            <div class="column is-3">
+              <img src="img/postman.png" width="200" height="200" alt="Postman">
+            </div>
+            <div class="column is-3">
+              <img src="img/git.png" width="200" height="200" alt="Git">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+      <!-- Begin Contact Content -->
+      <div class="section-light contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">
+                Get in touch
+              </h1>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <p class="subtitle is-6">You can contact me at</p>
+              <p class="title is-4">kasslim749@gmail.com</p>
+              </br>
+            </div>
+            
+            <div class="column is-8 is-offset-2">
+              <p class="subtitle is-6">My Gihub profile is</p>
+              <p class="title is-4"><a href="https://github.com/sandralim021" style="color:#363636" target="_blank">@sandralim021</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <strong class="white">Kaycee </strong> © 2020
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
