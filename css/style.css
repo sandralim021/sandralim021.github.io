@@ -114,16 +114,6 @@ html {
   }
 }
 
-.main-content .section-dark.skills .skill-item {
-  margin-bottom: 1rem;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-  border-radius: 5px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
-}
-
 .main-content .section-dark.skills .skill-item:hover {
   -webkit-transform: scale(1.055) translateY(-2px);
   transform: scale(1.055) translateY(-2px);
