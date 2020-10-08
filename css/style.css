@@ -99,6 +99,9 @@ a{
 .navbar-menu .navbar-item{
   text-transform: uppercase;
 }
+.navbar-menu .navbar-item:hover{
+  color: #eb6e3d;
+}
 
 
 .main-content {
