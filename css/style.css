@@ -119,6 +119,12 @@ a{
 .main-content .section-dark.skills {
   padding: 120px;
 }
+.main-content .section-dark.skills .column.is-2 {
+  margin-right: 20px;
+  padding-left: 60px;
+  flex: auto;
+  
+}
 
 @media (max-width: 599px) {
   .main-content .section-dark.skills {
